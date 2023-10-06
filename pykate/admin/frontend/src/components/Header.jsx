@@ -1,9 +1,12 @@
 import React from 'react';
+import {MainMenu} from "@epam/promo";
 
 const Header = () => {
     return (
         <header>
-            <div>Я голова</div>
+            <div>
+                <MainMenu/>
+            </div>
         </header>
     );
 };
