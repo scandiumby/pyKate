@@ -4,7 +4,7 @@ import LoginForm from "./LoginForm";
 const LoginPage = () => {
     return (
         <div>
-            <h1>Login Page</h1>
+            <h1 style={{textAlign: 'center'}}>Login Page</h1>
             <br/>
             <LoginForm/>
             <br/>
